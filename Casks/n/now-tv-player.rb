@@ -8,8 +8,10 @@ cask "now-tv-player" do
   homepage "https://www.nowtv.com/"
 
   livecheck do
-    url :url
-    strategy :extract_plist
+    url "https://web.static.nowtv.com/watch/player/nowtv/gb/latest/update.json"
+    strategy :json do |json|
+      json.dig("platforms", "darwin", "version")
+    end
   end
 
   app "NOW TV Player.app"

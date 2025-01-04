@@ -36,6 +36,7 @@ affinity-designer
 affinity-photo
 affinity-publisher
 aide-app
+airflow
 airtame
 akiflow
 alcom
@@ -47,6 +48,7 @@ aliworkbench
 almighty
 alt-tab
 altair-graphql-client
+amadine
 amazon-chime
 amazon-q
 amie
@@ -223,8 +225,10 @@ cog
 coin-wallet
 commander-one
 commandpost
+compositor
 confluent-cli
 connect-fonts
+contour
 cookie
 copilot
 copilot-for-xcode
@@ -465,6 +469,7 @@ geoda
 geogebra
 geogebra@5
 geph
+ghostty
 ghostty@tip
 git-credential-manager
 gitbutler
@@ -485,7 +490,6 @@ gog-galaxy
 goland
 goodsync
 google-chrome@beta
-google-chrome@canary
 google-chrome@dev
 google-cloud-sdk
 gpg-suite@nightly
@@ -565,8 +569,8 @@ jasp
 java@beta
 jazz2-resurrection
 jbrowse
-jdownloader
 jellyfin
+jet-pilot
 jetbrains-gateway
 jetbrains-toolbox
 jgrennison-openttd
@@ -768,6 +772,7 @@ mutedeck
 mutesync
 mweb-pro
 nagstamon
+naps2
 native-access
 naver-whale
 navicat-for-mariadb
@@ -957,6 +962,7 @@ qfinder-pro
 qgis
 qgroundcontrol
 qlab
+qlmarkdown
 qownnotes
 qq
 qqlive
@@ -975,6 +981,7 @@ quickwhisper
 quip
 racket
 radarr
+radiola
 rancher
 rapidapi
 rapidweaver
@@ -988,7 +995,7 @@ reaper
 receipts
 rectangle
 rectangle-pro
-redisinsight
+redis-insight
 reflect
 reflector
 rekordbox
@@ -1004,6 +1011,7 @@ requestly
 resolume-arena
 responsively
 restfox
+restic-browser
 retcon
 retrobatch
 reveal
@@ -1039,6 +1047,7 @@ saleae-logic
 sanctum
 santa
 sapmachine-jdk
+satyrn
 sauce-connect
 schism-tracker
 screaming-frog-log-file-analyser
@@ -1069,7 +1078,6 @@ setapp
 sf
 sfm
 shadow
-shadow-bot
 shadow@beta
 shadowsocksx-ng
 shapr3d
@@ -1098,6 +1106,7 @@ slack
 slack-cli
 slack@beta
 smartgit
+smartsynchronize
 smooze-pro
 smultron
 snagit
@@ -1144,6 +1153,7 @@ strongvpn
 studio-3t
 sublime-merge
 sublime-text@dev
+subsurface
 sunsama
 super-productivity
 superhuman
@@ -1157,6 +1167,7 @@ swiftformat-for-xcode
 sync
 syncovery
 syncthing
+syntax-highlight
 tabby
 tableflip
 tableplus
@@ -1256,6 +1267,7 @@ ui
 ultimate
 understand
 uninstallpkg
+unite
 unite-phone
 unity
 unity-hub

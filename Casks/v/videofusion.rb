@@ -1,6 +1,6 @@
 cask "videofusion" do
-  version "7.4.0.11085"
-  sha256 "f06d28c606f97d283df81694bef328f30f52c342f0ea1dd79d044bc02bb1412b"
+  version "7.5.0.11103"
+  sha256 "69a77309f5a1a3fd4449f0b639b25437332b212e290a243a6b5d004bec4ce92b"
 
   url "https://lf3-package.vlabstatic.com/obj/faceu-packages/Jianying_#{version.dots_to_underscores}_jianyingpro_0_creatortool.dmg",
       verified: "lf3-package.vlabstatic.com/obj/faceu-packages/"
@@ -14,6 +14,7 @@ cask "videofusion" do
     url "https://lv-api-hl.ulikecam.com/service/settings/v3/?&aid=3704&rom_version=9965&version_code=328960&channel=jianyingpro_0&device_platform=mac"
     regex(/Jianying[._-]v?(\d+(?:[._]\d+)+).+?\.dmg/i)
     strategy :json do |json, regex|
+      # `lastest_stable_url` is an upstream typo of `latest_stable_url`
       url = json.dig("data", "settings", "update_reminder", "lastest_stable_url")
       next if url.blank?
 

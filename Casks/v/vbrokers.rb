@@ -1,6 +1,6 @@
 cask "vbrokers" do
-  version "2.5.320,600001,1734336440"
-  sha256 "383781813bfa4b52d8820a11d9218de3d553db746409768141c07c23208af44d"
+  version "2.5.408,600001,1735798050"
+  sha256 "41307cb9667daeabef152dff2b2147f81d94bbdd5234c67ca2e318fbb1c3244d"
 
   url "https://r.hstong.com/public/app/Mac/HSTONG_Mac_#{version.csv.second}_#{version.csv.first}_#{version.csv.third}.dmg"
   name "VBrokers"

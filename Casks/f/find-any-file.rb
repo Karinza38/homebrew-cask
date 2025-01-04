@@ -1,16 +1,16 @@
 cask "find-any-file" do
-  version "2.5.3"
-  sha256 "1cc815568f782674f908b098cca2a343deff89aa7d003d0023d2d8950b0dda08"
+  version "2.5.5,394"
+  sha256 :no_check # required as upstream package is updated in-place
 
-  url "https://s3.amazonaws.com/files.tempel.org/FindAnyFile_#{version}.zip",
+  url "https://s3.amazonaws.com/files.tempel.org/FindAnyFile_#{version.csv.first}.zip",
       verified: "s3.amazonaws.com/"
   name "Find Any File"
   desc "File finder"
   homepage "https://findanyfile.app/"
 
   livecheck do
-    url :homepage
-    regex(/href=.*?FindAnyFile[._-]v?(\d+(?:\.\d+)+)\.zip/i)
+    url "https://findanyfile.app/appcast#{version.major}.php"
+    strategy :sparkle
   end
 
   depends_on macos: ">= :el_capitan"
